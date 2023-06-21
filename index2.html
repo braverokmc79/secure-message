@@ -1,0 +1,56 @@
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/braverokmc79/secure-message@v1.0.0/style.css"/>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div class="box_area">
+                <div class="top_area type2">
+                    <div class="title_box">
+                        <h1> 보안정책에 의하여 사이트 이용이 <br> 중지되었습니다.</h1>
+                        <h2 style="margin: 50px " id="countDown">
+                        	5
+                        </h2>
+                    </div>
+                </div>
+                <div class="contenst_area">
+                    <div class="box">
+                        <ul class="list type2">
+                        	<li><span class="cont">짧은 시간 동안 과도한 스팸성 게시글</span></li>
+                            <li><span class="cont">짧은 시간 동안 과도한 접속 시도</span></li>
+                            <li><span class="cont">프로그램을 통한 사이트 접근 시도</span></li>
+                            <li><span class="cont">서비스 정책에 위배되는 이용이 의심되는 경우</span></li>
+                        </ul>
+                    </div>
+                    <div class="text_box">
+                        <p>
+                            <br>이용에 불편을 드려 죄송합니다. <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+<script type="text/javascript">
+let cnt=5;
+setInterval(() => {
+	cnt--;
+	document.getElementById("countDown").innerHTML=cnt;
+}, 1000);
+
+
+setTimeout(() => {
+	location.href="https://www.google.com";
+}, 5000);
+	
+</script>
+</body>
+</html>
